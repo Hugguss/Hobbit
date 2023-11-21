@@ -1,0 +1,97 @@
+body {
+    background-color: lightgray;
+}
+.div1 {
+
+    margin: auto;
+    width: 1000px;
+    height: 800px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(109, 109, 109);
+
+}
+.container1 {
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px
+}
+.title {
+    position: absolute;
+    top: 230px;
+    margin-left: 300px;
+    z-index: 2;
+    color: white;
+    width: 400px;
+    font-family:  "Lato", Arial, sans-serif;
+    font-size: 50px;
+}
+.fondo {
+    width: 1000px;
+    transform: skewY(-2deg);
+    transform-origin: 0 0;
+    
+}
+.subtitle {
+    position: absolute;
+    top: 300px;
+    margin-left: 330px;
+    width: 400px;
+    font-family:  "Lato", Arial, sans-serif;
+    font-size: 23px;
+    color: #C7C1BA;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+span {
+    position: absolute;
+    top: 20px;
+    margin-left: 12px;
+    background: #C4AF3D;
+    border-radius: 5px;
+    color: #504b2e;
+    font-size: 15px;
+    padding: 5px;
+}
+.portada {
+    height: 330px;
+    position: absolute;
+    top: 230px;
+    margin-left: 70px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 7px rgba(201, 198, 198, 0.57);
+}
+.container2 {
+    padding-top: 40px;
+    display: flex;
+
+}
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    padding-top: 70px;
+    margin-left: 80px;
+    height: 10px;
+}
+.button button {
+    height: 30px;
+    width: 90px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: lightgrey;
+
+}
+.text {
+    width: 600px;
+    font-size: 25px;
+    line-height: 26px;
+    color: #b1b0accb;
+    padding-left: 80px;
+} 
+
